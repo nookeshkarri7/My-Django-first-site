@@ -1,0 +1,112 @@
+<!--Calculator Created by Nookesh-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="d-flex flex-row justify-content-center">
+ <div class="container1">
+     <div class="heading">
+         <p class="headingcalc">Calculator Designed by Nookesh </p>
+         <hr class="mt-0 under"/>
+    </div>
+    <div>
+        <p class="values" id="values"></p>
+        <p class="answer text-right" id="answer">Answer : 0 </p>
+    </div>
+        <div class="operationsCard">
+        <div class="d-flex flex-row">
+            <div class="mr-3">
+                <button class="bgBtn" id="clearBtn"><i class="fab fa-cuttlefish"></i></button>
+            </div>
+            <div class="mr-3">
+                <button class="bgBtn" id="percentBtn"><i class="fas fa-percent"></i></button>
+            </div>
+
+            <div class="mr-3">
+                <button class="bgBtn" id="rootBtn"><i class="fas fa-square-root-alt"></i></button>
+            </div>
+
+            <div class="mr-3">
+                <button class="bgBtn" id="divideBtn"><i class="fas fa-divide"></i></button>
+            </div>
+                            
+        </div>
+        <div class="mt-3  d-flex flex-row">
+            <div class="mr-4">
+                <button class="bgBtnnum" id="Btn7">7</button>
+            </div>
+            <div class="ml-1 mr-4">
+                <button class="bgBtnnum" id="Btn8">8</button>
+            </div>
+            <div class="mr-4">
+                <button class="bgBtnnum" id="Btn9">9</button>
+            </div>
+            <div class="ml-1">
+                <button class="bgBtn" id="mulBtn"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        <div class="mt-3  d-flex flex-row">
+            <div class="mr-4">
+                <button class="bgBtnnum" id="Btn4">4</button>
+            </div>
+            <div class="ml-1 mr-4">
+                <button class="bgBtnnum" id="Btn5">5</button>
+            </div>
+            <div class="mr-4">
+                <button class="bgBtnnum" id="Btn6">6</button>
+            </div>
+            <div class="ml-1">
+                <button class="bgBtn" id="minusBtn"><i class="fas fa-minus"></i></button>
+            </div>
+                            
+        </div>
+        <div class="mt-3  d-flex flex-row">
+            <div class="mr-4">
+                <button class="bgBtnnum" id="Btn1">1</button>
+            </div>
+            <div class="ml-1 mr-4">
+                <button class="bgBtnnum" id="Btn2">2</button>
+            </div>
+
+            <div class="mr-4">
+                <button class="bgBtnnum" id="Btn3">3</button>
+            </div>
+
+            <div class="ml-1">
+                <button class="bgBtn" id="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+                            
+        </div>
+        <div class="mt-3  d-flex flex-row">
+            <div class="mr-2">
+                <button class="bgBtnnum" id="Btn00">00</button>
+            </div>
+            <div class="ml-2 mr-4">
+                <button class="bgBtnnum" id="Btn0">0</button>
+            </div>
+
+            <div class="mr-4">
+                <button class="bgBtnnum" id="Btndot">.</button>
+            </div>
+
+            <div class="ml-1">
+                <button class="bgBtn sumbtn" id="equalBtn"><i class="fas fa-equals"></i></button>
+            </div>
+                            
+        </div>
+    </div>    
+</div>
+</div>  
+</body>
+
+<script src="./script.js"></script>
+</html>
